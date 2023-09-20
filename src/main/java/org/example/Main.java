@@ -1,12 +1,19 @@
 package org.example;
 
-// 문제 : 자동차 객체마다 서로 다른 최고속력를 가지도록 해주세요.
 
 class Main {
     public static void main(String[] args) {
-        Car car = new Car();
+        Car car1 = new Car();
+        car1.speed = 1;
+        car1.run();
 
-        car.run();
-        car.crash();
+        Car car2 = new Car();
+        car2.speed = 2;
+        car2.run();
+
+        Car car3 = new Car();
+        car3.speed = 3;
+        car3.run();
+
     }
 }
