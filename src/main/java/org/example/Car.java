@@ -1,10 +1,9 @@
 package org.example;
 
-public class Car {
+class Car {
     int speed;
     String name;
     void run() {
-        System.out.println(name + "가 달린다.");
-        System.out.println(name + "가 최고속력 " + speed + "km로 달린다.");
+        System.out.println(name + "가 최고속도 " + speed + "km로 달립니다.");
     }
 }
